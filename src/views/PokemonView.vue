@@ -43,5 +43,5 @@ const capitalizedPokemonName = computed(() => {
     <PokemonType :types="pokemon.types" />
     </div>
   </CardComponent>
-  <EmptyState v-else> Pokémon introuvable </EmptyState>
+  <EmptyState v-else> Pokemon not found </EmptyState>
 </template>
